@@ -1,8 +1,9 @@
-﻿using System;
+﻿using Marketplace.Framework;
+using System;
 
 namespace Marketplace.Domain
 {
-    public class ClassifiedAdId
+    public class ClassifiedAdId : Value<ClassifiedAdId>
     {
         private readonly Guid _value;
 
